@@ -193,8 +193,8 @@ with col2:
     }
 </style>
 
-<div class="welcome-box"><b>
-       🐼 𝓦𝓔𝓛𝓒𝓞𝓜𝓔  𝕿𝕺  𝓟𝖊𝖙𝕭𝖔𝖙 🐼 </b><br>
+<div class="welcome-box">
+       🐼 𝓦𝓔𝓛𝓒𝓞𝓜𝓔 𝕿𝕺 𝓟𝖊𝖙𝕭𝖔𝖙 🐼 <br>
     <b> ◔◡◔ ⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘ ◔◡◔ </b>
 </div>
 
