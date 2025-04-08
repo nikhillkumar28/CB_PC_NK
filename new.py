@@ -194,8 +194,8 @@ with col2:
 </style>
 
 <div class="welcome-box"><b>
-    🐼 𝓦𝓔𝓛𝓒𝓞𝓜𝓔  𝕿𝕺  𝓟𝖊𝖙𝕭𝖔𝖙 🐼</b><br>
-    <b>◔◡◔ ⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘ ◔◡◔</b>
+       🐼 𝓦𝓔𝓛𝓒𝓞𝓜𝓔  𝕿𝕺  𝓟𝖊𝖙𝕭𝖔𝖙 🐼 </b><br>
+    <b> ◔◡◔ ⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘ ◔◡◔ </b>
 </div>
 
 <div class="info-text">
