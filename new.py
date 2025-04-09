@@ -182,14 +182,17 @@ with col2:
 <style>
     .welcome-box {
         background: linear-gradient(135deg, #f7d9ff, #cdb4db);
-        padding: 15px;
-        border-radius: 20px;
+        padding: 30px 20px;
+        border-radius: 25px;
         text-align: center;
-        font-size: 24px;
+        font-size: 22px;
+        max-width:500px;
+        margin-left:auto;
+        margin-right:auto;
         font-family: 'Fredoka', sans-serif;
         color: #5a189a;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        margin-bottom: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
     }
 
     .info-text {
