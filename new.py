@@ -119,13 +119,17 @@ with col1:
     st.markdown("""
         <style>
             .left-pane {
-                padding: 20px 15px;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 270px;
+                height: 100vh;
                 background-color: #0f0f0f;
                 border-right: 1px solid #333;
-                border-radius: 12px 0 0 12px;
-                height: 50vh;
-                max-width: 270px;
+                padding: 30px 20px;
+                border-radius: 0;
                 overflow-y: auto;
+                z-index: 999;
             }
 
             .left-pane h2 {
@@ -147,6 +151,11 @@ with col1:
                 text-decoration: underline;
                 color: #ccc;
             }
+
+            /* Add padding to the right column to avoid overlap */
+            .block-container {
+                padding-left: 290px !important;
+            }
         </style>
 
         <div class='left-pane'>
@@ -154,7 +163,7 @@ with col1:
             <div class='nav-links'>
                 <a href="#" onclick="fetch('/?section=Schedule').then(() => window.location.reload());">📅 Schedule Appointment</a>
                 <a href="#" onclick="fetch('/?section=Tips').then(() => window.location.reload());">📖 Learn Pet Tips</a>
-                <a href="#" onclick="fetch('/?section=Chat').then(() => window.location.reload());">💬 Chat with Bot</a>
+                <a href="#" onclick="fetch('/?section=Chat').then(() => window.location.reload());">💬 Help & Support</a>
                 <a href="#" onclick="fetch('/?section=Settings').then(() => window.location.reload());">⚙️ Settings</a>
             </div>
         </div>
@@ -164,7 +173,6 @@ with col1:
     query_params = st.query_params
     if "section" in query_params:
         st.session_state.active_section = query_params["section"][0]
-
 
 
 with col2:
@@ -351,7 +359,8 @@ st.markdown("""
     z-index: 9999;
 }
 </style>
-<div class="footer-fixed">👨‍💻𝕸𝖆𝖉𝖊 𝖜𝖎𝖙𝖍 ❤️ 𝖇𝖞 12318964 • 𝕻𝖊𝖙𝕭𝖔𝖙 © 2025</div>
+<div class="footer-fixed">[ 12318964,12317117,12313000
+  •𝕻𝖊𝖙𝕭𝖔𝖙 © 2025 ]</div>
 """, unsafe_allow_html=True)
 
 
