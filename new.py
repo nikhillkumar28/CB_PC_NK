@@ -201,12 +201,14 @@ with col2:
         font-family: 'Segoe UI', sans-serif;
         color: #b39ddb;
         margin-bottom: 20px;
+        overflow-wrap:break-word;
     }
+
+    
 </style>
 
 <div class="welcome-box">
-       🐼 𝓦𝓔𝓛𝓒𝓞𝓜𝓔 𝕿𝕺 𝓟𝖊𝖙𝕭𝖔𝖙 🐼 <br>
-    <b> ◔◡◔ ⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘ ◔◡◔ </b>
+    🐼  𝓦𝓔𝓛𝓒𝓞𝓜𝓔 𝕿𝕺 𝓟𝖊𝖙𝕭𝖔𝖙  🐼<br>
 </div>
 
 <div class="info-text">
